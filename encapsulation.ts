@@ -8,7 +8,7 @@ class BankCustomer{
     this.customerName = customerName;
     this.customerPassword = customerPassword;
   }
-  getName(){
+  getName() : string{
     return this.customerName;
   }
   verifyPinInput(passwordEnter : string) : boolean {
